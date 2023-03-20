@@ -14,7 +14,7 @@ jobs:
       - name: Checkmarx One CLI Action
         uses: checkmarx/ast-github-action@main #Github Action version
         with:
-          project_name: Tatiana_GoVulnerableGitHubAction
+          project_name: TatianaOrganization/GoCode
           cx_tenant: cx_seg
           base_uri: https://eu.iam.checkmarx.net
           cx_client_id: ${{ secrets.CLIENT_ID }}
