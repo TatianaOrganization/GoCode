@@ -22,7 +22,7 @@ This toolkit provides packages to put together server and pubsub daemons with th
 ### Install
 Notice the capitalization!    
 
-`go get github.com/NYTimes/gizmo/...`
+`go get github.com/NYTimes/gizmo/...` 
 
 ### Import Path Change Notice
 The New York Times recently changed the github organization from `NYTimes` to `nytimes`. This should not affect the installation as long as you use the proper casing `NYTimes` and not `nytimes` per installation instructions above.
